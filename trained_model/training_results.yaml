@@ -1,0 +1,33 @@
+fitness: !!python/object/apply:numpy.core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  GzZNMsnLyz8=
+metrics/mAP50(B): !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  95gblvST1z8=
+metrics/mAP50-95(B): !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  y8QW+hqlyT8=
+metrics/precision(B): !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  k1otIWRm5j8=
+metrics/recall(B): !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  4zNvkGWD0T8=
